@@ -9,6 +9,9 @@ body{
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
     position: relative;
+    color: white;
+   
+    
 }
 html{
     scroll-behavior: smooth;
@@ -20,7 +23,7 @@ html{
 }
 .header-div{
     
-    position: relative;
+    position: fixed;
     left: 0px;
     right: 0px;
     top:0px;
@@ -28,7 +31,9 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    background: transparent;
+
 }
 .logo-div{
    min-width: 100px;
@@ -120,3 +125,72 @@ html{
     }
 }
 }
+.hero-image-div{
+    width: 500px;
+    
+}
+.hero-image-1{
+    margin-top: 100px;
+    width: 100%;
+}
+.hero-image-2{
+    width: 100%
+}
+.home-main-sect{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-text-div{
+    
+    font-weight: bold;
+    padding-left: 50px;
+}
+.home-text-title{
+    font-size: 65px;
+}
+.home-text-bullet{
+    font-size: 40px;
+}
+.home-text-bullet{
+    list-style-type: none;
+}
+.home-text-bullet li{
+    margin-bottom: 30px;
+}
+
+.home-buttons-div{
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+   
+   
+}
+.home-buttons-div button{
+    width: 300px;
+    height: 75px;
+    font-size: 20px;
+    border-radius: 75px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.176);
+    margin-right: 50px;
+    color: white;
+    transition: background-color 0.2s;
+    
+}
+@media(max-width: 1600px){
+    .home-buttons-div{
+        margin-top: 0px;
+    }
+}
+
+.home-buttons-div button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.home-buttons-div button:active{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
+}
+
