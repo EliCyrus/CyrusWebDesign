@@ -10,6 +10,7 @@ body{
     font-family: 'Inter', sans-serif;
     position: relative;
     color: white;
+    padding-top: 120px;
    
     
 }
@@ -63,24 +64,15 @@ html{
         
 }
 }
-@media(max-width: 749px ){
+@media(max-width: 775px ){
+    
     .header-div{
-    position: relative;
-    left: 0px;
-    right: 0px;
-    top:0px;
     height: 100px;
 }
-.logo-div{
-    position: absolute;
-    left: -50px;
-    right: 70vw;
-    top: -20px;
-    
-}
+
 }
  .navigation button{
-   width: 1000px;
+   width: 150px;
     height: 50px;
     
     cursor: pointer;
@@ -104,7 +96,7 @@ html{
 
 
 
-@media(max-width: 1200px ){
+@media(max-width: 1000px ){
     .navigation button{
    width: 100px;
     height: 50px;
@@ -118,12 +110,21 @@ html{
     font-size: 14px;
         
 }
+.home-text-div{
+        padding-top: 50px;
+    }
+}
 
 @media(max-width: 900px){
+    body{
+        padding-top: 0px
+    }
     .navigation button{
         width: 75px;
     }
-}
+    .home-text-div{
+        padding-top: 30px;
+    }
 }
 .hero-image-div{
     width: 500px;
@@ -159,6 +160,10 @@ html{
 .home-text-bullet li{
     margin-bottom: 30px;
 }
+.delivery-info-text{
+    font-size: 25px;
+    margin: 100px 0px 100px -20px;
+}
 
 .home-buttons-div{
     display: flex;
@@ -180,6 +185,12 @@ html{
     transition: background-color 0.2s;
     
 }
+
+@media(max-width: 1700px){
+    .home-buttons-div{
+        margin-top: 50px;
+    }
+}
 @media(max-width: 1600px){
     .home-buttons-div{
         margin-top: 0px;
@@ -191,6 +202,6 @@ html{
     color: black;
 }
 .home-buttons-div button:active{
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
