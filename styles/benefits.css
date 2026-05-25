@@ -1,0 +1,32 @@
+.benefits-header-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.benefits-header-text{
+    font-size: 50px;
+    
+}
+.benefit-title{
+    font-size: 30px;
+}
+.benefit-text{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+.benefits-inner-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefits-section{
+    background-color: rgb(40,40,40);
+    margin-top: 50px;
+    padding: 10px 25px 50px 25px;
+}

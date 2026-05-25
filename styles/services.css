@@ -9,16 +9,20 @@
 .service-list-div{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 .service-list{
+    display: flex;
     background-color: rgba(128, 128, 128, 0.131);
-    width: 500px;
-    height: 500px;
+    flex: 1;
     border-radius: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 25px 25px 25px 25px;
+   
+    
    
 }
 .service-list-title{
@@ -29,11 +33,43 @@
     font-size: 30px;
     margin-bottom: 25px;
 }
-@media(max-width: 850px ){
-.service-list-title{
-    font-size: 16px;
+
+@media(max-width: 1550px ){
+    .service-list-title{
+        font-size: 35px;
+    }
+    .service-list-text{
+        font-size: 30px;
+    }
 }
+
+@media(max-width: 1100px ){
+    .service-list-title{
+        font-size: 30px;
+    }
+    .service-list-text{
+        font-size: 25px;
+    }
 }
+@media(max-width: 850px){
+     .service-list-title{
+        font-size: 25px;
+    }
+    .service-list-text{
+        font-size: 20px;
+    }
+}
+
+
 .services-bullet{
     list-style: none;
+}
+.service-images{
+    width: 50%;
+    
+}
+.service-image-div{
+display: flex;
+align-items: center;
+justify-content: center;
 }
