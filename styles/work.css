@@ -1,6 +1,7 @@
 .work-header-div{
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 }
 .work-header-text{
     font-size: 50px;
@@ -37,7 +38,7 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 .demo-project-outer-div{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     min-width: 200px;
 }
 

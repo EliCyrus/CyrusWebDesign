@@ -2,11 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 .benefits-div{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: top;
+    gap: 50px;
+    justify-content: center;
 }
 .benefits-header-text{
     font-size: 50px;
@@ -24,9 +26,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
 }
 .benefits-section{
     background-color: rgb(40,40,40);
     margin-top: 50px;
     padding: 10px 25px 50px 25px;
+}
+@media(max-width: 900px){
+    .benefits-div{
+        flex-direction: column;
+    }
 }
