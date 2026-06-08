@@ -41,6 +41,7 @@
     justify-content: space-between;
     padding: 30px;
     align-items: center;
+    margin-top: 50px;
 }
 .simple-contact-button:hover{
 background-color: rgba(20, 20, 20, 0.6);
@@ -55,15 +56,21 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     border-bottom: 2px solid white;
     background-color: transparent;
     border: none;
-    font-size: 20px;
-     border-bottom: 2px solid white;
-     outline-color: white;
      width: 100%;
      color: white;
+     padding: 10px;
+     outline: none;
+     transition: outline 0.2s;
+     font-size: 20px;
+     
+     
 }
+
 .form-input:focus{
-    outline-color: white;
+    outline: 2px solid white;
+   
 }
+
 .submit-button{
     width: 250px;
     height: 50px;
@@ -83,4 +90,5 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 .form-status{
     font-size: 30px;
+
 }

@@ -12,6 +12,7 @@
 .demo-project-text{
     font-size: 50px;
     margin: 0px 0px 0px 0px;
+    
 }
 .demo-project-button-div{
     width: 75%;
@@ -51,7 +52,8 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     
     
 }
-@media(max-width: 1026px){
+
+@media(max-width: 1200px){
     
 .demo-project-text{
     font-size: 50px;

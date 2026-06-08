@@ -23,9 +23,12 @@
     justify-content: start;
     padding: 40px;
     
-   
+   transition: all 0.5s ease;
     
    
+}
+.service-list:hover{
+    box-shadow: 3px 3px 20px rgba(255,255,255,0.6);
 }
 .service-list-title{
     font-size: 40px;

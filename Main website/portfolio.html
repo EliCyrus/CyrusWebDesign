@@ -45,9 +45,12 @@
                 </div>
                 </div>
                    <div class="home-buttons-div">
-                    <button class="contact-me-button">
+                    <a href="#contact">
+                        <button class="contact-me-button">
                         Contact Me
-                    </button>
+                        </button>
+                    </a>
+                  
                     <a href="#work"><button>View Work</button></a>
                 </div>
             </section>
@@ -57,7 +60,7 @@
                     <h1 class="services-header">Services</h1>
                 </div>
                 <div class="service-list-div">
-                    <div class="service-list">
+                    <div class="service-list hidden" >
                         <div class="service-image-div">
                             <img src="images/laptop-minimal-check-3.png" class="service-images">
                         </div>
@@ -69,7 +72,7 @@
                         </ul>
                       
                     </div>
-                    <div class="service-list">
+                    <div class="service-list hidden" >
                         <div class="service-image-div">
                             <img src="images/pencil-line.png" class="service-images">
                         </div>
@@ -82,7 +85,7 @@
                         </ul>
                        
                     </div>
-                    <div class="service-list">
+                    <div class="service-list hidden">
                         <div class="service-image-div">
                             <img src="images/zap.png" class="service-images">
                         </div>
@@ -103,7 +106,7 @@
                 <div class="work-header-div">
                     <h1 class="work-header-text">Featured Work</h1>
                 </div>
-                <div class="demo-project-outer-div">
+                <div class="demo-project-outer-div hidden" >
                     <div class="demo-project-inner-div">
                         <p class="demo-project-text">Auto Detailing Website</p>
                         <div class="demo-project-image-div">
@@ -130,7 +133,7 @@
                     
                 </div>
             </section>
-            <section id="benefits" class="benefits-section">
+            <section id="benefits" class="benefits-section hidden">
                 <div class="benefits-header-div">
                     <h1 class="benefits-header-text">Why choose Cyrus Web Design</h1>
                 </div>
@@ -156,34 +159,34 @@
                     <h2 class="process-subheader-text">A simple process designed to get your business online quickly and efficiently.</h2>
                 </div>
                 <div class="process-outer-div">
-                    <div class="process-inner-div">
+                    <div class="process-inner-div hidden" >
                         <p class="process-title">Consultation</p>
                         <p class="process-text">We discuss your business, services, goals, and the type of website that best fits your needs. This can be done through a phone call, email, or text conversation.</p>
                     </div>
                     <div class="process-arrow-div">
                         <img src="images/move-right.png" class="process-arrow">
                     </div>
-                    <div class="process-inner-div">
+                    <div class="process-inner-div hidden">
                          <p class="process-title">Planning & Design</p>
                          <p class="process-text">A custom layout is created based on your brand and the information you provide. You'll have the opportunity to review the design before development begins.</p>
                     </div>
                        <div class="process-arrow-div">
                         <img src="images/move-right.png" class="process-arrow">
                     </div>
-                    <div class="process-inner-div">
+                    <div class="process-inner-div hidden">
                          <p class="process-title">Development</p>
                          <p class="process-text">Your website is built with a focus on modern design, responsiveness, and user experience. Progress updates are provided throughout the project to keep you informed.</p>
                     </div>
                     <div class="process-arrow-div">
                         <img src="images/move-right.png" class="process-arrow">
                     </div>
-                    <div class="process-inner-div">
+                    <div class="process-inner-div hidden">
                          <p class="process-title">Review & Launch</p>
                          <p class="process-text">Once the website is complete, you'll review the final version and request any necessary adjustments. After approval, your website is launched and ready for customers.</p>
                     </div>
                 </div>
             </section>
-            <section id="contact">
+            <section id="contact" class="hidden">
                 <div class="contact-header-div">
                   <h1 class="contact-header">Lets Work Together</h1>
                   <h2 class="contact-subheader">Interested in upgrading your online presence? Let's discuss your project.</h2>
@@ -215,9 +218,9 @@
             </section>
         </main>
 
-        <script src="scripts/portfolio.js">
+        <script src="scripts/portfolio.js" type="module">
 
         </script>
-        <script src="scripts/contact.js"></script>
+        <script src="scripts/contact.js" type="module"></script>
     </body>
 </html>

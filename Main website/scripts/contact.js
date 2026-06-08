@@ -1,3 +1,4 @@
+
 const form = document.querySelector('.contact-form')
 const button = document.querySelector('.submit-button')
 const formStatus = document.querySelector('.form-status')
