@@ -1,0 +1,119 @@
+body{
+    font-family: 'Inter';
+    margin: 0;
+}
+
+.left-header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 30px;
+    
+    
+}
+.mid-header{
+    display: flex;
+}
+.header-logo{
+    font-size: 25px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+.theme-button{
+    width: 80px;
+    height: 42px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(192,192,192, 0.2);
+    cursor: pointer;
+   display: flex;
+   align-items: center;
+    
+    
+}
+.display-div{
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    align-items: center;
+    height: 35px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.header-button-image{
+    width: 20px;
+}
+#home{
+    background-image: url('../images/BfzHMbR-s8Xk-iqOLHi_VdUPv37hqKxaavbz8rlAVEGgX5o17VvgFQR3liEHetxcW-nrYlKfiTbTqJMUyx7n7NjAFKeNyxZ5QmYump9uOnFqYZqsSx5XSgadNKVa_HKq80ACPnDaUBGRZXpLhzaok2Sf72POivcv-wSywv0sG8iIxlCsk644A_9ej9xGARQx.jpeg');
+    background-size: cover;
+    margin: 0px;
+    padding-left: 100px;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    
+    
+    
+}
+.home-nav a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.home-nav{
+    display: flex;
+    gap: 40px;
+}
+.home-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+    width: 100%;
+}
+.left-home-header{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.right-home-header{
+    
+}
+
+.home-header-logo{
+    width: 100px;
+    transform: scaleX(-1);
+    
+}
+.business-name{
+    font-size: 40px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.nav-text{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.nav-text:hover{
+    color: rgba(255,255,255,0.47);
+}
+.phone-number:hover{
+    color: white;
+}
+.home-main-div{
+    width: 85%;
+    position: relative;
+}
