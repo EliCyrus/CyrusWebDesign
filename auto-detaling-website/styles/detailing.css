@@ -1,16 +1,20 @@
 body{
     font-family: 'Inter';
-    margin: 0;
+    margin: 0px;
+    height: 3000px;
+    
 }
 html{
     scroll-behavior: smooth;
 }
 
-.left-header{
+.left-header-link{
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 30px;
+    text-decoration: none;
+    color: black;
     
     
 }
@@ -26,6 +30,11 @@ html{
     flex-direction: row;
     align-items: center;
     padding: 0px 20px 0px 20px ;
+    position: fixed;
+    background-color: white;
+    left: 0px;
+    right: 0px;
+    z-index: 10
     
     
 }
@@ -70,6 +79,7 @@ html{
     width: 100%;
     height: 1300px;
     display: flex;
+    padding-top: 100px;
     
     
     
@@ -121,6 +131,9 @@ html{
 .nav-text:hover{
     color: rgba(255,255,255,0.47);
 }
+.nav-text:active{
+    color: rgba(255,255,255,0.37);
+}
 .phone-number:hover{
     color: white;
 }
@@ -157,4 +170,15 @@ html{
 }
 .quote-request-button:hover{
 opacity: 0.8;
-};
+}
+.quote-request-button:active{
+    opacity: 0.6;
+}
+.hidden{
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: translateY(10px);
+}
+.show{
+    opacity: 1;
+}
