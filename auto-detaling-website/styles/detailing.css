@@ -146,11 +146,12 @@ html{
     position: absolute;
     background-color: white;
     left: 850px;
-    right: 200px;
+    max-width: 800px;
     top: 1100px;
-    bottom: -350px;
+    height: 1300px;
     padding: 20px 50px 20px 50px ;
     border-radius: 10px;
+   
     
 }
 .quote-request{
@@ -181,4 +182,32 @@ opacity: 0.8;
 }
 .show{
     opacity: 1;
+}
+.ham-menu{
+    width: 50px;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 1790px){
+.quote-request{
+    left: 500px
+}
+}
+@media(max-width: 1410px){
+.quote-request{
+    left: 200px
+}
+}
+@media(max-width: 800px){
+.quote-request{
+    display: none;
+}
+}
+@media(max-width: 1305px){
+    .home-nav{
+        display: none;
+    }
+    .ham-menu{
+        display: inline-block;
+    }
 }
