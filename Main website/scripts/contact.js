@@ -2,8 +2,8 @@
 const form = document.querySelector('.contact-form')
 const button = document.querySelector('.submit-button')
 const formStatus = document.querySelector('.form-status')
-   
-     form.addEventListener('submit', async (event)=> {
+  
+    form.addEventListener('submit', async (event)=> {
         event.preventDefault()
         const formData = new FormData(form)
         formStatus.innerHTML="Sending..."
@@ -37,5 +37,8 @@ if (response.ok){
         }
     
     })
+   
+   
+     
    
    

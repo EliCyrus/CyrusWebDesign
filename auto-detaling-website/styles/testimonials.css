@@ -1,0 +1,75 @@
+
+#testimonials{
+overflow: hidden;
+margin-bottom: 200px;
+}
+.testimonial-group{
+    display: flex;
+    font-family: 'Montserrat';
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-right: 30px;
+    
+}
+
+.testimonials-main-div{
+    display: flex;
+  overflow: hidden;
+   
+   width: max-content;   
+}
+.testimonials-main-div::-webkit-scrollbar{
+    display: none;
+}
+.testimonial-group::-webkit-scrollbar{
+    display: none;
+}
+
+.testimonial-card{
+    flex: 0 0 auto;
+    background: linear-gradient(135deg, rgb(211, 207, 207), white);
+    display: flex;
+    max-width: 700px;
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+    padding: 0px 15px;
+    background-size: cover;
+    font-style: italic;
+    border-radius: 20px;
+    
+}
+.testimonial-card-1{
+    background-image: url('../testimonial-images/MRa8LJGnMSgvXMigKMompQUP-GK8l_Ao7AesrjZvuHQbiE0XByAKuaBPBCf4RC8AWUj3qAskj32b8en37EK1fpKR1TPh-RR81pwznV72CyujTqZ_DI5CL_1gIivAf_w2_BvlVGGSYTYP4u-eWKCJGRhiJky37Q_NIdD8XW49sRJW-L7q_u0x2tpwb27TNIT3.jpeg')
+}
+.testimonial-card-2{
+    background-image: url('../testimonial-images/fL5ApGVyMX5qisCh7jd5PlI3gakNkjXY70stQ3tVVI9dwdi2_UJKU28npsASZxMcVFDlR0EcMqqYxe4JDWqaaadTXUmWBxUf9G8UPt2zeJw51_-q4re2n_gElzvcyqBfgjheGTOrKczK6M_BBDgMDjSWTr4OL_5hGWVfpIDYLL00p_Xcn1v2OhqC_pHEclxh.jpeg');
+}
+.testimonial-card-3{
+    background-image: url('../testimonial-images/kYe4pjWUKGjGLROQ9UYZbfH0yEGoP3FRvgCMF_wPx3hHdnh97_m31DghYb6PLKD9qBI3AQnx7Tddr3czxEMSFRClfH0WKXEKfzztgj9_vMlUcvaZIsk5nHmCrvgQaYw90qCH3TOtXEVADez1GNh6kS61uhQ1vNGgt4dCY_p0xOT5apVmNYveSvuwRGJeB7I7.jpeg');
+}
+.testimonial-card-4{
+    background-image: url('../testimonial-images/LzHkT2CX226GnPMl05jEm5QoiPOcz-pLyOMq0zAxYC1ew7P_ebpnl4eo4ajJ6fKM_w3LM7yFpwORdktcLln4aHdup06HFzaWPRXH25THup2fyM6WpJCO-xN4k3RI5_lWIWOm3FQ6uDwzeAMcZsPyeIx51uTOnQT2mtoMDj7wsjZQ-PZr9Wsm0gGIiOacNl8G.jpeg');
+}
+.testimonial-card-5{
+    background-image: url('../testimonial-images/mZsHefbqgUqtnYmF0T3wrz2ZZPfioYmRSUc7uv0S6WRC4XTbO7zCo0Ea8lyhjBsuczNpAmmaqQmM0pYJ4ft11dFg3kTgdqI_PpNZrJ4aRoXLRLFAT4knTcl4wL-C0t9jGFG5PpgopGag8M0fvmxJBCklUb7Gh1J2uEHH-hh94K_tIC56rTRInEHNLM8axAcO.jpeg');
+}
+.testimonial-card-6{
+    background-image: url('../testimonial-images/SofrJjGc4nvuuXGg69927y0o44ihqphRuhoTxlV4xoAl6pq3kd1pSvtXZ5-ttCY4jar92GerUvnmY5sRp_dOISRdxhz3efp_8gO3uKCeuBB7liJMSIjvYkfPvVcbbj2arfknTMdWYMe49DYcuQHXeUaFDcuiTsJzTL_Zthtk9jdZhqsf_H4N5yMRcSp6CzzL.jpeg');
+}
+
+.testimonial-text{
+    font-weight: 600;
+    color: rgb(255, 251, 251);
+    margin-top: 600px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.testimonial-name{
+    color: white;
+    font-size: 25px;margin-top: auto;
+}
+
