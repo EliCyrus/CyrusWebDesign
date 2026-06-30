@@ -1,10 +1,7 @@
-
 .book-detail-div{
     display: flex;
     flex-direction: column;
     height: 90%;
-    
-    
 }
 #contact{
    padding-left: 100px;
@@ -12,11 +9,12 @@
 .book-detail-title{
     font-size: 60px;
     margin-top: 0px;
+    color: rgb(255,255,255);
 }
 .book-detail-subtitle{
     font-size: 30px;
     width: 800px;
-    
+    color: rgba(255,255,255,0.59);
 }
 .contact-info-div{
     display: flex;
@@ -24,7 +22,9 @@
 }
 .contact-info-text{
     font-size: 20px;
+    color: rgb(255,255,255);
 }
+
 .contact-info-email{
     color: red;
     text-decoration: underline;
@@ -44,13 +44,15 @@
     width: 500px;
     height: 50px;
     font-size: 20px;
-    color: rgba(17, 23, 29, 0.59);
+    color: rgba(255,255,255,0.59);
+    background-color: rgb(30,30,30);
+    border: 1px solid rgb(70,70,70);
     padding: 0px 25px;
 }
 .input-title{
     font-size: 30px;
     font-weight: 500;
-    color: rgb(30,30,30);
+    color: rgb(255,255,255);
     margin: 0px;
 }
 .main-contact-div{
@@ -95,5 +97,3 @@
        overflow-x: hidden;
     }
 }
-
-

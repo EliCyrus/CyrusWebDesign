@@ -1,0 +1,115 @@
+.services-header-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.services-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.services-header-text{
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: rgb(255,255,255);
+}
+.services-subheader-text{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 75px;
+    color: rgb(220,220,220);
+}
+.service-item{
+    background-color: rgba(65,65,65,0.7);
+    padding: 35px 35px 25px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.service-item:hover{
+    box-shadow: 5px 5px 5px rgba(80,80,80,0.501);
+    transform: translateY(-2px);
+}
+.services-grid{
+    width: auto;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 450px 450px 450px;
+}
+#services{
+    padding: 0px 0px 0px 0px;
+}
+.service-item-icon{
+    width: 80px;
+}
+.service-item-header{
+    font-size: 30px;
+    color: rgb(255,255,255);
+}
+.service-item-text{
+    font-size: 20px;
+    color: rgba(255,255,255,0.59);
+    line-height: 30px;
+}
+@media(max-width: 1475px){
+    .services-grid{
+        grid-template-columns: 450px 450px;
+    }
+}
+@media(max-width: 1010px){
+    .services-grid{
+        grid-template-columns: 450px;
+    }
+}
+.services-images{
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    height: 70vh;
+}
+.service-image{
+    min-width: 300px;
+    min-height: 300px;
+    width: 33%;
+    transform: scaleX(-1);
+}
+.service-image-left{
+    position: absolute;
+    left: -3%;
+    top: 10px;
+    height: 72%;
+}
+.service-image-right{
+    position: absolute;
+    right: 0%;
+    top: 10px;
+    height: 72%;
+}
+.service-image-middle{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleX(-1);
+    width: 40%;
+    z-index: 1;
+    top: -35px;
+    height: 85%;
+    border-radius: 5px;
+}
+@media(max-width:1475px){
+    .service-images{
+        height: 60vh;
+    }
+}
+@media(max-width: 1010px ){
+    .services-images{
+        height: 50vh;
+    }
+}
