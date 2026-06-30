@@ -70,12 +70,7 @@ function animate(){
         document.querySelector('.display-div').style.transform = `translateX(${position}px)`
             requestAnimationFrame(animate)
         }
-    
-
-   
-     
-        
-
+        document.querySelector('.header-button-image').src = 'images/moon.png'
 }
 function animateBack (){
     position -= speed
@@ -83,6 +78,7 @@ function animateBack (){
         document.querySelector('.display-div').style.transform = `translateX(${position}px)`
             requestAnimationFrame(animateBack)
         }
+    document.querySelector('.header-button-image').src = 'images/sun.png'
 }
 
 themeChanger()
