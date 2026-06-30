@@ -1,15 +1,21 @@
-#contact{
-    padding: 0px 50px;
-}
+
 .book-detail-div{
     display: flex;
     flex-direction: column;
+    height: 90%;
+    
+    
+}
+#contact{
+   padding-left: 100px;
 }
 .book-detail-title{
     font-size: 60px;
+    margin-top: 0px;
 }
 .book-detail-subtitle{
     font-size: 30px;
+    width: 800px;
     
 }
 .contact-info-div{
@@ -26,10 +32,12 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    height: 90%;
+    gap: 30px;
 }
 .form-input{
     width: 500px;
-    height: 80px;
+    height: 50px;
     font-size: 20px;
     color: rgba(17, 23, 29, 0.59);
     padding: 0px 25px;
@@ -38,4 +46,49 @@
     font-size: 30px;
     font-weight: 500;
     color: rgb(30,30,30);
+    margin: 0px;
 }
+.main-contact-div{
+    display: flex;
+    gap: 150px;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.message-input{
+    height: 80px;
+}
+.submit-button{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(236, 93, 88);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.submit-button:hover{
+    opacity: 0.8;
+}
+.submit-button:active{
+    opacity: 0.6;
+}
+.social-media-icon{
+    width: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+@media(max-width:1700px){
+    .main-contact-div{
+        flex-direction: column;
+        align-items: start;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+       overflow-x: hidden;
+    }
+}
+
+
