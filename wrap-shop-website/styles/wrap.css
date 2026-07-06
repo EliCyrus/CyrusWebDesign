@@ -1,0 +1,209 @@
+body{
+    font-family: 'Inter';
+    margin: 0px;
+    max-height: 100vh;
+    font-family: 'montserrat';
+    
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.left-header-link{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.mid-header{
+    display: flex;
+}
+.header-logo{
+    font-size: 25px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px 0px 20px ;
+    position: fixed;
+    background-color: white;
+    left: 0px;
+    right: 0px;
+    z-index: 10
+    
+    
+}
+
+.theme-button{
+    width: 80px;
+    height: 42px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(192,192,192, 0.2);
+    cursor: pointer;
+   display: flex;
+   align-items: center;
+   
+  transition: transform 2s ease
+    
+    
+}
+
+.display-div{
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    align-items: center;
+    height: 35px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.header-button-image{
+    width: 20px;
+}
+.home-header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    
+    
+}
+.home-logo{
+    width: 50px;
+}
+#home{
+    padding-top:81px;
+    background-color: rgb(19, 20, 22);
+    color: white;
+    padding: 100px 30px 80px 30px;
+    
+}
+.left-home-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.right-home-header{
+    font-size: 30px;
+}
+.home-website-name{
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+}
+.nav-text{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+   
+}
+.home-nav{
+    display: flex;
+    gap: 20px;
+}
+.home-text-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans';
+    color: rgba(255,255,255,0.45);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.top-home-text{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.mid-home-text{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+.bottom-home-text{
+    font-size: 25px;
+    text-align: center;
+}
+.home-text-div p{
+    margin: 0px;
+}
+.home-quote-button,.home-services-button{
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 8px 30px;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-weight: 500;
+}
+.home-quote-button{
+    background-color: rgb(219, 36, 36);
+    border: none;
+}
+.home-quote-button:hover{
+    background-color:rgb(240, 58, 51);
+}
+.home-quote-button:active{
+    background-color: rgb(250,68,61);
+}
+.home-services-button{
+    background-color: transparent;
+    border: 2px solid  rgb(219, 36, 36);
+}
+.home-services-button:hover{
+    background-color: rgb(219, 36, 36);
+}
+.home-services-button:active{
+    background-color: rgb(250,68,61);
+}
+.home-button-divs{
+    display: flex;
+    gap: 40px;
+}
+.home-image-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.home-image{
+   width: 85%;
+   
+    border-radius: 20px;
+}
+.hamburger-menu{
+    width: 50px;
+    display: none;
+}
+@media(max-width: 1070px){
+    .mid-home-header{
+        display: none;
+    }
+    .home-phone-number{
+        display: none;
+    }
+    .hamburger-menu{
+        display: inline;
+        
+    }
+}
+@media(max-width: 1225px){
+    .nav-text{
+        font-size: 25px;
+    }
+}

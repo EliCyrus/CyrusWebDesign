@@ -1,0 +1,160 @@
+#services{
+    padding: 100px 100px 80px 100px ;
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+.services-header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+   margin-bottom: 100px;
+}
+.services-top-text{
+    font-size: 25px;
+    color: rgb(219, 36, 36);
+}
+.services-mid-text{
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 500;
+}
+.services-mid-span{
+    color: rgba(0,0,0,0.50) ;
+}
+.mid-text-arrow{
+    width: 50px;
+    padding-top: 10px;
+}
+.services-mid-text-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.services-bottom-text{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 25px;
+    width: 70%;
+    line-height: 40px;
+}
+.services-buttons{
+    display: flex;
+    gap: 20px;
+    
+}
+.service-button{
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(219, 36, 36);
+}
+.service-button:hover{
+    background-color:rgb(240, 58, 51);
+}
+.service-button:active{
+    background-color: rgb(250,68,61);
+}
+.secondary-service-button{
+    background-color: transparent;
+    border: 2px solid rgb(219, 36, 36);
+    color: black;
+}
+.secondary-service-button:hover{
+    background-color: rgb(219, 36, 36);
+    color: white;
+}
+.secondary-service-button:active{
+   background-color:rgb(250,68,61);
+}
+.services-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+@media (max-width: 1315px){
+    .services-header{
+        flex-direction: column;
+        align-items: start;
+
+     
+    }
+    
+    
+}
+.service-item-icon{
+    width: 60px;
+}
+.service-item-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.service-item-text{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    
+}
+.service-item-quote-arrow{
+    width: 30px;
+}
+.service-item-quote-text{
+    color: rgb(219, 36, 36) ;
+    font-size: 20px;
+   
+}
+.service-item{
+    display: grid;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    border-radius: 25px;
+    padding: 20px 20px 30px 20px;
+    
+    border: 2px solid rgba(245, 245, 245, 1)
+    
+}
+.service-items-div{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.service-item-quote-div{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    gap: 5px;
+    cursor: pointer;
+}
+.secondary-service-item{
+    display: none;
+}
+@media(max-width: 1650px){
+    .service-items-div{
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    .third-service{
+        grid-column: span 2;
+    }
+    
+}
+@media(max-width: 1100px){
+    .service-items-div{
+        grid-template-columns: 1fr;
+    }
+    .third-service{
+        grid-column: auto;
+    }
+}

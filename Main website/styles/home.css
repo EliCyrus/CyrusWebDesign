@@ -13,6 +13,7 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     
+margin: 0px;
    
     
 }
@@ -145,15 +146,26 @@ transform: translateY(-3px);
     transition: transform 0.2s ease;
     
 }
-.hero-image-div:hover{
-     transform: translateY(-10px);
-}
+
 .hero-image-1{
     margin-top: 100px;
     width: 100%;
+    transition: transform 0.4s ease;
+}
+.hero-image-1:hover{
+    transform: translateY(-5px);
 }
 .hero-image-2{
-    width: 100%
+    width: 18%;
+    position: absolute;
+    right: 0px;
+    top: 500px;
+    transition: transform 0.4s ease;
+    
+}
+
+.hero-image-2:hover{
+    transform: translateY(-5px);
 }
 
 .home-main-sect{
@@ -187,7 +199,7 @@ transform: translateY(-3px);
 .home-buttons-div{
     display: flex;
     align-items: center;
-    margin-top: -100px;
+    
    
    
 }
