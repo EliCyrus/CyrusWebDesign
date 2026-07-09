@@ -3,7 +3,8 @@ let showMoreActive = false
 showMore.addEventListener('click', ()=>{
     if (!showMoreActive){
          document.querySelectorAll('.secondary-service-item').forEach((item)=> {
-        item.style.display = 'inline-block' 
+        item.style.display = 'grid' 
+        item.style.opacity = '1'
         showMoreActive = true
         showMore.innerHTML = 'Show Less'
          })
@@ -17,7 +18,6 @@ showMore.addEventListener('click', ()=>{
         }
     })
     
-        
    
 
    

@@ -7,6 +7,9 @@ body{
     
     
 }
+#home{
+     padding: 100px 100px 80px 100px;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -32,7 +35,7 @@ html{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 0px 20px 0px 20px ;
+    padding: 20px 20px 20px 20px ;
     position: fixed;
     background-color: white;
     left: 0px;
