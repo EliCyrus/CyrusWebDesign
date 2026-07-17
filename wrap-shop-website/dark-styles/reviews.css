@@ -1,0 +1,140 @@
+.review-arrow-right{
+    width: 70px;
+}
+
+#reviews{
+    padding: 100px 100px 80px 100px;
+    background-color: rgb(19, 20, 22);
+    color: white;
+}
+
+.review-top-text{
+    color: rgb(219, 36, 36);
+    font-size: 25px;
+}
+
+.review-middle-text{
+    font-size: 70px;
+}
+
+.review-middle-span{
+    font-size: 70px;
+    color: rgba(255,255,255,0.50);
+}
+
+.review-middle-div{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    margin-top: -30px;
+}
+
+.review-bottom-text{
+    color: rgba(255,255,255,0.50);
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.review-quote-button{
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(219, 36, 36);
+}
+
+.review-quote-button:hover{
+    background-color: rgb(240, 58, 51);
+}
+
+.review-quote-button:active{
+    background-color: rgb(250,68,61);
+}
+
+.review-secondary-button{
+    background-color: transparent;
+    border: 2px solid rgb(219, 36, 36);
+    color: white;
+}
+
+.review-secondary-button:hover{
+    background-color: rgb(219, 36, 36);
+    color: white;
+}
+
+.review-secondary-button:active{
+    background-color: rgb(250,68,61);
+}
+
+.review-buttons-div{
+    display: flex;
+    gap: 20px;
+}
+
+.review-sub-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.reviews-main-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.review-card{
+    border: 2px solid rgb(50, 52, 56);
+    background-color: rgb(28, 30, 33);
+    border-radius: 10px;
+    padding: 29px 38px 29px 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.review-card-icon{
+    width: 50px;
+}
+
+.review-card-text{
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: auto;
+}
+
+.review-card-image{
+    width: 50px;
+}
+
+.review-card-identity{
+    margin-top: auto;
+}
+
+.review-card-identity{
+    display: flex;
+    gap: 20px;
+}
+
+.review-card-name{
+    color: rgba(255,255,255,0.50);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.review-card-info{
+    font-size: 18px;
+    color: rgba(255,255,255,0.50);
+}
+
+@media(max-width: 1000px){
+    .reviews-main-div{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}

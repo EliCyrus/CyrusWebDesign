@@ -86,10 +86,9 @@ html{
     width: 50px;
 }
 #home{
-    padding-top:81px;
+    padding-top:100px;
     background-color: rgb(19, 20, 22);
     color: white;
-    padding: 100px 30px 80px 30px;
     
 }
 .left-home-header{

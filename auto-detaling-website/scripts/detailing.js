@@ -48,6 +48,7 @@ themeButton.addEventListener('click', ()=> {
     
     if (darkMode){
         themeChangerInner(lightHTML,head)
+          document.querySelector('.back-arrow').src = 'images/arrow-left.png'
        animateBack()
         darkMode = false
     }
