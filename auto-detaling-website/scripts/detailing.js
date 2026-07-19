@@ -1,4 +1,4 @@
-import { scrollAnimation } from "../../Main website/scripts/portfolio.js";
+import { scrollAnimation } from "../../scripts/portfolio.js";
 scrollAnimation()
  const lightHTML = ` <title>Auto Detailing</title>
         <link rel="stylesheet" href="styles/detailing.css">
