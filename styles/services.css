@@ -67,6 +67,9 @@
     .service-list-text{
         font-size: 20px;
     }
+    .service-list-div{
+        flex-direction: column;
+    }
 }
 
 .services-bullet{
