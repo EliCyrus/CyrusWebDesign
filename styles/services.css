@@ -1,82 +1,86 @@
 .services-header{
-    font-size: 50px;
-    margin-bottom: 60px;
-
+    font-size: clamp(36px, 4vw, 50px);
+    margin-bottom: clamp(40px, 5vw, 60px);
 }
+
 .services-header-div{
     display: flex;
     justify-content: center;
 }
+
 .service-list-div{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: clamp(20px, 4vw, 50px);
 }
+
 .service-list{
     display: flex;
     background-color: rgba(128, 128, 128, 0.131);
     flex: 1;
     border-radius: 100px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    padding: 40px;
-    
-   transition: all 0.5s ease;
-    
-   
+    padding: clamp(20px, 3vw, 40px);
+    transition: all 0.5s ease;
 }
+
 .service-list:hover{
     box-shadow: 3px 3px 20px rgba(255,255,255,0.6);
 }
+
 .service-list-title{
-    font-size: 40px;
-    
+    font-size: clamp(25px, 3vw, 40px);
 }
 
 .service-list-text{
-    font-size: 30px;
+    font-size: clamp(20px, 2vw, 30px);
     margin-bottom: 25px;
-   
 }
 
-@media(max-width: 1550px ){
+@media(max-width: 1550px){
     .service-list-title{
         font-size: 35px;
     }
+
     .service-list-text{
         font-size: 30px;
     }
 }
 
-@media(max-width: 1100px ){
+@media(max-width: 1100px){
     .service-list-title{
         font-size: 30px;
     }
+
     .service-list-text{
         font-size: 25px;
     }
 }
+
 @media(max-width: 850px){
-     .service-list-title{
+    .service-list-title{
         font-size: 25px;
     }
+
     .service-list-text{
         font-size: 20px;
     }
 }
 
-
 .services-bullet{
     list-style: none;
 }
+
 .service-images{
-    width: 50%;
-    
+    width: 100%;
+    max-width: 50%;
+    height: auto;
 }
+
 .service-image-div{
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

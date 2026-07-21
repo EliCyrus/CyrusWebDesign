@@ -3,44 +3,50 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: clamp(40px, 5vw, 60px);
 }
+
 .process-header-text{
-    font-size: 50px;
+    font-size: clamp(36px, 4vw, 50px);
 }
+
 .process-outer-div{
     display: flex;
     justify-content: space-between;
     align-items: top;
 }
+
 .process-inner-div{
     background-color: rgb(40,40,40);
     display: flex;
     flex-direction: column;
     border-radius: 50px;
     align-items: center;
-    padding: 25px 25px 25px 25px;
-   
+    padding: clamp(15px, 2vw, 25px);
 }
+
 .process-arrow{
     width: 100%;
-    margin-top: 200px;
+    max-width: 100%;
+    margin-top: clamp(100px, 12vw, 200px);
+    height: auto;
 }
+
 .process-title{
-    font-size: 30px;
+    font-size: clamp(24px, 2.5vw, 30px);
     font-weight: bolder;
-   
-   
-    
 }
+
 .process-text{
-    font-size: 25px;
+    font-size: clamp(18px, 2vw, 25px);
 }
+
 @media(max-width: 1120px){
     .process-outer-div{
         flex-direction: column;
         gap: 30px;
     }
+
     .process-arrow{
         display: none;
     }

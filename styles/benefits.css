@@ -2,39 +2,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: clamp(50px, 6vw, 80px);
 }
+
 .benefits-div{
     display: flex;
     align-items: top;
-    gap: 50px;
+    gap: clamp(25px, 4vw, 50px);
     justify-content: center;
-    
 }
+
 .benefits-header-text{
-    font-size: 50px;
-    
+    font-size: clamp(36px, 4vw, 50px);
 }
+
 .benefit-title{
-    font-size: 30px;
+    font-size: clamp(24px, 2.5vw, 30px);
 }
+
 .benefit-text{
-    font-size: 20px;
+    font-size: clamp(16px, 2vw, 20px);
     text-align: center;
     font-weight: normal;
 }
+
 .benefits-inner-div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
 }
+
 .benefits-section{
     background-color: rgb(40,40,40);
-    margin-top: 50px;
-    padding: 10px 25px 50px 25px;
+    margin-top: clamp(30px, 4vw, 50px);
+    padding: clamp(10px, 2vw, 20px) clamp(15px, 3vw, 25px) clamp(30px, 5vw, 50px) clamp(15px, 3vw, 25px);
     border-radius: 50px;
 }
+
 @media(max-width: 1070px){
     .benefits-div{
         flex-direction: column;

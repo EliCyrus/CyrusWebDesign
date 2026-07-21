@@ -3,92 +3,100 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
 
-}
 .contact-header{
-    font-size: 50px;
+    font-size: clamp(36px, 4vw, 50px);
 }
+
 .simple-contact-button{
     width: 100%;
     background-color: rgb(20, 20, 20);
     color: white;
     border: none;
     cursor: pointer;
-    height: 100px;
+    height: clamp(70px, 8vw, 100px);
     border-radius: 25px;
-    font-size: 20px;
+    font-size: clamp(16px, 2vw, 20px);
 }
+
 .main-contact-div{
-   display: flex;
-   gap: 30px;
-   margin-bottom: 500px;
-   align-items: center;
-   flex-direction: column;
+    display: flex;
+    gap: clamp(20px, 3vw, 30px);
+    margin-bottom: clamp(150px, 25vw, 500px);
+    align-items: center;
+    flex-direction: column;
 }
+
 .simple-contact-div{
     flex: 1;
-    width: 25%;
+    width: 100%;
+    max-width: 25%;
 }
+
 .contact-form{
-    background-color: rgb(20, 20, 20);;
+    background-color: rgb(20, 20, 20);
     flex: 3;
     border-radius: 20px;
-    height: 500px;
-    width: 70%;
+    height: auto;
+    min-height: 500px;
+    width: 100%;
+    max-width: 70%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: space-between;
-    padding: 30px;
+    padding: clamp(20px, 3vw, 30px);
     align-items: center;
-    margin-top: 50px;
+    margin-top: clamp(30px, 4vw, 50px);
 }
+
 .simple-contact-button:hover{
-background-color: rgba(20, 20, 20, 0.6);
-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.399);
+    background-color: rgba(20, 20, 20, 0.6);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.399);
 }
+
 .simple-contact-button:active{
-background-color: rgba(20, 20, 20, 0.4);
-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(20, 20, 20, 0.4);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
+
 .form-input{
-    height: 100px;
+    height: clamp(70px, 8vw, 100px);
     border-bottom: 2px solid white;
     background-color: transparent;
     border: none;
-     width: 100%;
-     color: white;
-     padding: 10px;
-     outline: none;
-     transition: outline 0.2s;
-     font-size: 20px;
-     
-     
+    width: 100%;
+    color: white;
+    padding: 10px;
+    outline: none;
+    transition: outline 0.2s;
+    font-size: clamp(16px, 2vw, 20px);
 }
 
 .form-input:focus{
     outline: 2px solid white;
-   
 }
 
 .submit-button{
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     height: 50px;
     background-color: white;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: clamp(18px, 2vw, 25px);
 }
-.submit-button:hover{
-    background-color: rgba(255,255,255,0.8) ;
-    
-}
-.submit-button:active{
-    background-color: rgba(255,255,255,0.6) ;
-    
-}
-.form-status{
-    font-size: 30px;
 
+.submit-button:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.submit-button:active{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.form-status{
+    font-size: clamp(22px, 3vw, 30px);
 }
