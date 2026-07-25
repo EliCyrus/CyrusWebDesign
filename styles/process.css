@@ -8,6 +8,7 @@
 
 .process-header-text{
     font-size: clamp(36px, 4vw, 50px);
+    text-align: center;
 }
 
 .process-outer-div{
@@ -39,6 +40,8 @@
 
 .process-text{
     font-size: clamp(18px, 2vw, 25px);
+    text-align: center;
+    line-height: 30px;
 }
 
 @media(max-width: 1120px){
@@ -50,4 +53,7 @@
     .process-arrow{
         display: none;
     }
+}
+.process-subheader-text{
+    text-align: center;
 }

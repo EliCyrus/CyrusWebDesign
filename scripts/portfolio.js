@@ -12,10 +12,10 @@ hiddenElement.forEach((element)=> {
     observer.observe(element)
 })
 }
-let number = 1.8
+let number = 1.5
 document.querySelectorAll(".process-inner-div").forEach((process)=> {
 process.style.transition = ` all ${number}s ease`
-number += 0.8
+number += 0.3
 })
 scrollAnimation()
 

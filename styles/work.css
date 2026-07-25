@@ -49,6 +49,7 @@
     justify-content: center;
     gap: clamp(25px, 4vw, 50px);
     min-width: 200px;
+    align-items: top;
 }
 
 .demo-project-inner-div{
