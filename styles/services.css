@@ -2,6 +2,11 @@
     font-size: clamp(36px, 4vw, 50px);
     margin-bottom: clamp(40px, 5vw, 60px);
 }
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .services-header-div{
     display: flex;
@@ -68,7 +73,9 @@
         font-size: 30px;
     }
     .service-list-div{
+        width: 75%;
         flex-direction: column;
+      
     }
 }
 
