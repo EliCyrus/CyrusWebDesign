@@ -44,6 +44,8 @@
     display: grid;
     gap: clamp(25px,3vw,50px);
     grid-template-columns: minmax(300px,450px) minmax(300px,450px) minmax(300px,450px);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #services{

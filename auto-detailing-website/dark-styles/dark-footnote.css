@@ -1,17 +1,17 @@
 #footnote{
-    background-color: rgb(50,50, 50);
+    background-color: rgb(50,50,50);
     color: white;
-    padding: 30px 30px;
+    padding: clamp(20px,3vw,30px);
 }
 
 .footnote-main-div{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    gap: 30px;
+    gap: clamp(20px,3vw,30px);
 }
 
 .footer-socials-icon{
-    width: 30px;
+    width: clamp(24px,2vw,30px);
 }
 
 .footer-social-media-div{
@@ -21,19 +21,19 @@
 
 .footer-nav-links{
     text-decoration: none;
-    color:  white;
-    font-size: 25px;
+    color: white;
+    font-size: clamp(18px,2vw,25px);
 }
 
 .footer-navigation-div{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: clamp(25px,4vw,50px);
 }
 
 .footer-social-media-title{
-    font-size: 35px;
-    margin-top: 0px;
+    font-size: clamp(26px,3vw,35px);
+    margin-top: 0;
     color: white;
 }
 
@@ -43,8 +43,8 @@
 }
 
 .footer-contact-text{
-    font-size: 25px;
-    margin-top: 0px;
+    font-size: clamp(18px,2vw,25px);
+    margin-top: 0;
     color: white;
 }
 
@@ -54,13 +54,13 @@
     cursor: pointer;
 }
 
-@media(max-width: 1150px){
+@media(max-width:1150px){
     .footnote-main-div{
         grid-template-columns: 1fr;
     }
 }
 
-@media(max-width: 1000px){
+@media(max-width:1000px){
     .footer-navigation-div{
         grid-template-columns: 1fr;
     }
