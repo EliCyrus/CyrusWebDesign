@@ -37,6 +37,7 @@
 
 .service-list-title{
     font-size: clamp(25px, 3vw, 40px);
+    min-width: 345px;
 }
 
 .service-list-text{
