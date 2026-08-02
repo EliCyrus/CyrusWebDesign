@@ -17,11 +17,11 @@
 }
 
 .benefit-title{
-    font-size: clamp(30px, 4vw, 35px);
+    font-size: clamp(25px, 3vw, 30px);
 }
 
 .benefit-text{
-    font-size: clamp(20px, 3vw, 25px);
+    font-size: clamp(16px, 2vw, 20px);
     text-align: center;
     line-height: 40px;
 }
@@ -44,4 +44,5 @@
     .benefits-div{
         flex-direction: column;
     }
+    
 }

@@ -66,14 +66,14 @@
 
 @media(max-width: 850px){
     .service-list-title{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .service-list-text{
-        font-size: 30px;
+        font-size: 25px;
     }
     .service-list-div{
-        width: 75%;
+        width: 70%;
         flex-direction: column;
       
     }
