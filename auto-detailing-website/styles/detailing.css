@@ -108,8 +108,6 @@ html{
     gap: clamp(10px,2vw,20px);
 }
 
-.right-home-header{
-}
 
 .home-header-logo{
     width: clamp(60px,8vw,100px);
