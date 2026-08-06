@@ -42,7 +42,7 @@ html{
     color: white;
 }
 
-.home-title-text{
+.home-title-text{ 
     font-size: clamp(48px,8vw,100px);
 }
 
@@ -140,7 +140,7 @@ html{
 
 .home-main-div{
     width: 85%;
-    
+    position: relative;
     padding-left: clamp(20px,6vw,100px);
 }
 
