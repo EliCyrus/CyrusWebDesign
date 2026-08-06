@@ -46,7 +46,7 @@
 }
 
 .form-input{
-    width: min(500px,100%);
+    width: 150%;
     height: clamp(45px,5vw,50px);
     font-size: clamp(16px,1.8vw,20px);
     color: rgba(17,23,29,0.59);
@@ -62,9 +62,9 @@
 
 .main-contact-div{
     display: flex;
-    gap: clamp(50px,8vw,150px);
+    gap: 0px;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     margin-bottom: clamp(80px,15vw,200px);
 }
 

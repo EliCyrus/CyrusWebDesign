@@ -199,6 +199,9 @@ html{
     .quote-request{
         display: none;
     }
+     #home{
+        min-height: 80vh;
+    }
 }
 
 @media(max-width:1305px){
@@ -208,5 +211,11 @@ html{
 
     .ham-menu{
         display: inline-block;
+    }
+}
+
+@media(max-height: 700px){
+    .quote-request{
+        display: none;
     }
 }
